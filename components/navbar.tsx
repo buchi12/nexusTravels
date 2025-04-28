@@ -11,7 +11,6 @@ const navLinks = [
   { name: "Services", href: "/services" },
   { name: "About", href: "/about" },
   { name: "Destinations", href: "/destinations" },
-  { name: "Testimonials", href: "/testimonials" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -57,7 +56,7 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Button size="sm">Book Now</Button>
+       
           </nav>
 
           {/* Mobile Navigation Toggle */}

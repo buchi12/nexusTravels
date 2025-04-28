@@ -7,4 +7,7 @@ const nextConfig = {
   images: { unoptimized: true },
 };
 
+const withVideo = require('next-videos')
+module.exports = withVideo()
+
 module.exports = nextConfig;

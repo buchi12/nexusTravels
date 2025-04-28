@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+
 import { 
   Plane, 
   Hotel, 
@@ -18,20 +19,17 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-white">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-            alt="Travel destination"
-            fill
-            priority
-            className="object-cover"
-          />
+        <div className="absolute inset-0 z-0"><video className="absolute top-1/2 left-1/2 min-w-full min-h-full object-cover transform -translate-x-1/2 -translate-y-1/2" autoPlay loop muted>
+        <source src="/web.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        
           <div className="absolute inset-0 bg-black/50" />
         </div>
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Discover the World with Nexus Air Travels
+       
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
             50,000+ happy travelers, 10+ destinations, and 24/7 support. Your adventure starts here!
@@ -218,32 +216,32 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80",
+                image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f0/goa.jpg?w=2400&h=1000&s=1",
                 title: "Travel to Goa ",
                 description: "Unwind in Goa, India’s ultimate beach paradise, where golden shores, vibrant nightlife, and rich Portuguese heritage come together for a perfect escape. Whether you’re looking for adventure, relaxation, or a party-filled getaway, Goa has something for everyone."
               },
               {
-                image: "https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+                image: "https://shreehariyoga.com/wp-content/uploads/2018/07/gokarna-statue.jpg",
                 title: "Travel to Gokarna",
                 description: "Discover the unspoiled beauty of Gokarna, a serene coastal town in Karnataka, India, known for its pristine beaches, ancient temples, and laid-back atmosphere. Whether you seek spiritual solace, adventure, or a peaceful escape, Gokarna offers a unique blend of experiences."
               },
               {
-                image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+                image: "https://t3.ftcdn.net/jpg/03/34/77/78/360_F_334777839_Y7Y5P8FFY5WFo7sTwjeT0vxDbTGxhIo5.jpg",
                 title: "Travel to the Maldives 🏝️🌊🐠",
                 description: "Escape to the Maldives, a paradise of crystal-clear waters, white sandy beaches, and luxurious overwater villas. Whether you seek romance, adventure, or pure relaxation, this tropical haven offers an unforgettable experience."
               },
               {
-                image: "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+                image: "https://media.worldnomads.com/Explore/india/kerala-backwaters-canoe-istock.jpg",
                 title: "Travel to Kerala 🌿🚤🏞️",
                 description: "Experience the magic of Kerala, known as “God’s Own Country,” where lush backwaters, misty hill stations, and sun-kissed beaches create an unforgettable escape. Whether you seek relaxation, adventure, or cultural immersion, Kerala offers a perfect blend of nature, tradition, and tranquility."
               },
               {
-                image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+                image: "https://travelmax.in/wp-content/uploads/2023/09/Feature_Image_French_Colony-1536x922.jpg",
                 title: "Travel to Pondicherry 🌴🌊🏖️",
                 description: "Escape to the charming coastal town of Pondicherry, where French colonial architecture, vibrant culture, and serene beaches create the perfect blend of relaxation and exploration. Whether you seek tranquility, history, or adventure, Pondicherry offers a unique and enriching getaway."
               },
               {
-                image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+                image: "https://unpluggedlife.in/wp-content/uploads/2023/03/Unplugged_Life_Trip_Pangong_3-1170x658.jpg",
                 title: "Travel to Ladakh 🏔️🚗❄️",
                 description: "Embark on an unforgettable journey to Ladakh, the “Land of High Passes,” where breathtaking landscapes, ancient monasteries, and thrilling adventures await. Whether you seek serenity, adventure, or cultural exploration, Ladakh offers an experience like no other."
               }
@@ -279,7 +277,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Testimonials 
       <section className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -341,7 +339,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-white">

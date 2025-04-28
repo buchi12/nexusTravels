@@ -6,61 +6,49 @@ import { ArrowRight } from "lucide-react";
 export default function IndianSpot() {
     const featuredDestinations = [
         {
-          name: "Paris",
-          country: "France",
-          image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80",
-          description: "Experience the romance and charm of the City of Light with iconic landmarks like the Eiffel Tower and Louvre Museum.",
+          name: "Goa",
+          country: "India",
+          image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f0/goa.jpg?w=2400&h=1000&s=1",
+          description: "Unwind in Goa, India’s ultimate beach paradise, where golden shores, vibrant nightlife, and rich Portuguese heritage come together for a perfect escape.",
           slug: "paris"
         },
         {
-          name: "Bali",
-          country: "Indonesia",
-          image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80",
-          description: "Discover paradise beaches, lush rice terraces, and rich cultural heritage on this beautiful Indonesian island.",
-          slug: "bali"
-        },
-        {
-          name: "Tokyo",
-          country: "Japan",
-          image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-          description: "Immerse yourself in a fascinating blend of traditional culture and cutting-edge technology in Japan's vibrant capital.",
-          slug: "tokyo"
-        },
-        {
-          name: "Santorini",
-          country: "Greece",
-          image: "https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
-          description: "Enjoy breathtaking views of the Aegean Sea from whitewashed buildings perched on volcanic cliffs.",
-          slug: "santorini"
-        },
-        {
-          name: "New York",
-          country: "USA",
-          image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-          description: "Experience the energy of the city that never sleeps with its iconic skyline, Broadway shows, and diverse neighborhoods.",
-          slug: "new-york"
-        },
-        {
-          name: "Maldives",
-          country: "Maldives",
-          image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2065&q=80",
-          description: "Relax in luxury overwater bungalows surrounded by crystal clear turquoise waters and white sand beaches.",
+          name: "Ladakh",
+          country: "India",
+          image: "https://unpluggedlife.in/wp-content/uploads/2023/03/Unplugged_Life_Trip_Pangong_3-1170x658.jpg",
+          description: "Embark on an unforgettable journey to Ladakh, the “Land of High Passes,” where breathtaking landscapes, ancient monasteries, and thrilling adventures await.",
           slug: "maldives"
         },
         {
-          name: "Barcelona",
-          country: "Spain",
-          image: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-          description: "Discover Gaudí's architectural masterpieces, vibrant street life, and beautiful Mediterranean beaches.",
-          slug: "barcelona"
+          name: "Maldives",
+          country: "India",
+          image: "https://t3.ftcdn.net/jpg/03/34/77/78/360_F_334777839_Y7Y5P8FFY5WFo7sTwjeT0vxDbTGxhIo5.jpg",
+          description: "Escape to the Maldives, a paradise of crystal-clear waters, white sandy beaches, and luxurious overwater villas.",
+          slug: "bali"
         },
         {
-          name: "Kyoto",
-          country: "Japan",
-          image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-          description: "Step back in time in Japan's ancient capital with its thousands of temples, traditional gardens, and geisha districts.",
-          slug: "kyoto"
-        }
+          name: "Gokarna",
+          country: "India",
+          image: "https://shreehariyoga.com/wp-content/uploads/2018/07/gokarna-statue.jpg",
+          description: "Discover the unspoiled beauty of Gokarna, a serene coastal town in Karnataka, India, known for its pristine beaches, ancient temples, and laid-back atmosphere.",
+          slug: "tokyo"
+        },
+        {
+          name: "Kerala",
+          country: "India",
+          image: "https://media.worldnomads.com/Explore/india/kerala-backwaters-canoe-istock.jpg",
+          description: "Experience the magic of Kerala, known as “God’s Own Country,” where lush backwaters, misty hill stations, and sun-kissed beaches create an unforgettable escape. ",
+          slug: "santorini"
+        },
+        {
+          name: "Pondicherry",
+          country: "India",
+          image: "https://travelmax.in/wp-content/uploads/2023/09/Feature_Image_French_Colony-1536x922.jpg",
+          description: "Escape to the charming coastal town of Pondicherry, where French colonial architecture, vibrant culture, and serene beaches create the perfect blend of relaxation and exploration.",
+          slug: "new-york"
+        },
+       
+      
       ];
     return (
         <div className="min-h-screen flex items-center justify-center px-4 py-24">

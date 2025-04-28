@@ -89,13 +89,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
-                Wanderlust was founded in 2010 by Emma Rodriguez, a passionate traveler who believed that travel should be transformative, authentic, and accessible to everyone.
+                NexusAir Travels  was founded in 2024 , a passionate traveler who believed that travel should be transformative, authentic, and accessible to everyone.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
                 What began as a small operation helping friends and family plan their dream vacations has grown into a full-service travel company with a team of dedicated experts who share Emma's vision and passion.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400">
-                Today, we've helped thousands of travelers explore over 100 countries across six continents. Our mission remains the same: to create meaningful travel experiences that broaden perspectives, foster connections, and create lasting memories.
+                Today, we've helped thousands of travelers explore over 10 countries . Our mission remains the same: to create meaningful travel experiences that broaden perspectives, foster connections, and create lasting memories.
               </p>
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
@@ -116,7 +116,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-6">Our Values</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              These core principles guide everything we do at Wanderlust
+              These core principles guide everything we do at Nexus Air Travels
             </p>
           </div>
           
